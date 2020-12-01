@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { container } from 'tsyringe';
 
-import CreateUsersServise from '@modules/users/services/CreateUsersService';
+import CreateUsersServise from '@modules/users/services/CreateUserService';
 
 interface IUser {
   name: string;
